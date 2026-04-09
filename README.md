@@ -1,76 +1,23 @@
-# 🚀 AI Virtual Drag & Drop using Hand Gestures
+# AI Virtual Drag and Drop using Hand Gestures
 
-This project implements a real-time gesture-controlled drag-and-drop system using computer vision.
+This project demonstrates a gesture-based drag and drop interface built using computer vision. The system tracks hand movements through a webcam and allows users to interact with objects on the screen without using a mouse or keyboard.
 
-Instead of a traditional mouse, users can interact with on-screen elements using hand gestures captured via webcam.
+Users can grab objects using a pinch gesture and move them across the screen in real time. Additionally, new objects can be created dynamically using hand gestures.
 
----
+### Features
 
-## 🧠 Key Features
-- ✋ Real-time hand tracking using MediaPipe  
-- 📍 Detection of 21 hand landmarks  
-- 🤏 Pinch gesture to drag and move objects  
-- 🖐️ Three-finger gesture to create new objects  
-- 🎯 Smooth mapping of hand coordinates to screen interaction  
+• Real-time hand tracking using MediaPipe
+• Drag and drop objects using pinch gesture
+• Multiple draggable elements
+• Random colored boxes for visual interaction
+• Gesture-based creation of new objects
+• Touchless user interface
 
----
+### Technologies Used
 
-## ⚙️ Tech Stack
-- Python  
-- OpenCV  
-- MediaPipe (Hand Landmarker - Tasks API)  
-- NumPy  
+Python
+OpenCV
+MediaPipe
+NumPy
 
----
-
-## 🧩 How It Works
-- Webcam captures live video using OpenCV  
-- Frames are processed and passed to MediaPipe  
-- Hand landmarks are detected and converted to pixel coordinates  
-- Distance between thumb and index finger is calculated for pinch detection  
-- Finger position logic is used to detect gestures  
-- Objects are dynamically updated based on hand movement  
-
----
-
-## 🎮 Controls
-- 🤏 **Pinch (Thumb + Index)** → Drag objects  
-- 🖐️ **Three Fingers Up** → Create new box  
-
----
-
-## 📦 Installation
-```bash
-pip install opencv-python mediapipe numpy
-```
-
----
-
-## ▶️ Run the Project
-```bash
-python main.py
-```
-
----
-
-## 📌 Requirements
-- Webcam  
-- Python 3.8+  
-
----
-
-## 🌟 Future Improvements
-- Multi-hand support  
-- Gesture-based resizing  
-- UI enhancements  
-- Integration with AR/VR systems  
-
----
-
-## 🤝 Contributing
-Feel free to fork this repo and build your own ideas on top of it.
-
----
-
-## 📢 Connect
-If you liked this project, feel free to connect and follow my journey of building AI projects every day 🚀
+This project demonstrates how gesture-based interfaces can enable natural and touchless interaction with digital environments.
